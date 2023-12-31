@@ -1,6 +1,17 @@
+table , th , td{
 
-body , a{
+  border: 2px solid;
+  width: 50%;
+  border-collapse: collapse;
+}
 
-  text-decoration: none;
+th , td {
 
+  text-align: left;
+  padding: 10px;
+}
+
+tr:hover {
+
+  background-color: pink;
 }
