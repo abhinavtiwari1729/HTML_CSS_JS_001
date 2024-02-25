@@ -1,17 +1,41 @@
-table , th , td{
-
-  border: 2px solid;
-  width: 50%;
-  border-collapse: collapse;
+body {
+  background-color: darkblue;
 }
 
-th , td {
-
-  text-align: left;
+#text {
+  background-color: black;
+  color: white;
   padding: 10px;
 }
 
-tr:hover {
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  background-color: lightgray;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
 
-  background-color: pink;
+#controls {
+  border: 1px black solid;
+  padding: 5px;
+}
+
+#stats {
+  border: 1px black solid;
+  color: black;
+  padding: 5px;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px black solid;
+  color: white;
+  padding: 5px;
+  background-color: red;
+}
+
+.stat {
+  padding-right: 10px;
 }
